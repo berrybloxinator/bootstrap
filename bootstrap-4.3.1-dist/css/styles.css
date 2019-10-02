@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
-#carouselExampleIndicators img {
+.firstCarousel img {
     object-fit: cover;
-    height: 400px;
+    /*min-height: 300px;*/
+    /*max-height: 600px;*/
+}
+
+.secondCarousel img {
+    /*object-fit: cover;*/
+    /*height: 900px;*/
 }
 
 .navbar img {
@@ -34,7 +40,25 @@
     background-color: #f5f5f5;
 }
 
-#starship {
-    text-align: center;
+.starship {
     background-color: #e8ecef;
+}
+
+.bb {
+    color: #686868;
+    border-bottom: 1px solid #686868;
+    font-size: 10px;
+}
+
+.m-bottom {
+    margin-bottom: 100px;
+}
+
+.span1 {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.span2 {
+    color: #686868;
 }
