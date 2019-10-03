@@ -7,179 +7,177 @@
 
     <link rel='stylesheet' href='bootstrap-4.3.1-dist/css/bootstrap.min.css'>
     <link rel='stylesheet' href='bootstrap-4.3.1-dist/css/styles.css'>
-    <script src='action.js' defer></script>
+    <script src='bootstrap-4.3.1-dist/js/min.js'></script>
+    <script src='bootstrap-4.3.1-dist/js/bootstrap.js'></script>
+    <script src='action.js'></script>
 
     <title>Hello, world!</title>
 </head>
 <body>
-    <div class="alert alert-warning alert-dismissible fade show m-0" role="alert">
-        <strong>Space X Update! </strong><a href='javascript:void(0)' onclick='leavingSite("https://youtu.be/sOpMrVnjYeY")'>https://youtu.be/sOpMrVnjYeY</a>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+<div class="alert alert-warning alert-dismissible fade show m-0" role="alert">
+    <strong>Space X Update! </strong><a href='javascript:void(0)' onclick='leavingSite("https://youtu.be/sOpMrVnjYeY")'>https://youtu.be/sOpMrVnjYeY</a>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand pt-0" href="index.html"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SpaceX-Logo.svg/1280px-SpaceX-Logo.svg.png'></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="secondpage.html">Starship</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="thirdpage.html">Dragon</a>
+            </li>
+        </ul>
     </div>
+</nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand pt-0" href="index.html"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/SpaceX-Logo.svg/1280px-SpaceX-Logo.svg.png'></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="secondpage.html">Starship</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="thirdpage.html">Dragon</a>
-                </li>
-            </ul>
+<div id="carouselExampleIndicators" class="carousel slide firstCarousel" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.wallpapersrc.com/img/69357fbae9684876a5c62bc8684ccf73/universe-supermassive-black-hole-2560x1080.jpg" class="d-block w-100" alt="...">
         </div>
-    </nav>
-
-    <div id="carouselExampleIndicators" class="carousel slide firstCarousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.wallpapersrc.com/img/69357fbae9684876a5c62bc8684ccf73/universe-supermassive-black-hole-2560x1080.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://wallpaperaccess.com/full/124578.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://wallpaperaccess.com/full/124585.jpg" class="d-block w-100" alt="...">
-            </div>
+        <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/124578.jpg" class="d-block w-100" alt="...">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+            <img src="https://wallpaperaccess.com/full/124585.jpg" class="d-block w-100" alt="...">
+        </div>
     </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
-    <div class='row mx-auto my-3' id='cards'>
-        <div class='col-xs-12 col-md-6 col-xl-3'>
-            <div class="card mx-auto">
-                <img src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="card-img-top " alt="moon">
-                <div class="card-body d-flex flex-column justify-content-between h-100">
-                    <div>
-                        <h5 class="card-title">Learn about the moon</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div>
-                        <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.space.com/55-earths-moon-formation-composition-and-orbit.html")'>Learn</a>
-                    </div>
+<div class='row mx-auto my-3' id='cards'>
+    <div class='col-xs-12 col-md-6 col-xl-3'>
+        <div class="card mx-auto">
+            <img src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="card-img-top " alt="moon">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+                <div>
+                    <h5 class="card-title">Learn about the moon</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-            </div>
-        </div>
-
-        <div class='col-xs-12 col-md-6 col-xl-3'>
-            <div class="card mx-auto">
-                <img src="https://s3.amazonaws.com/dsg.files.app.content.prod/gereports/wp-content/uploads/2017/08/17133501/Corona.jpg" class="card-img-top" alt="solar-eclipse">
-                <div class="card-body d-flex flex-column justify-content-between h-100">
-                    <div>
-                        <h5 class="card-title">When is the next solar eclipse?</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div>
-                        <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.forbes.com/sites/jamiecartereurope/2019/04/08/countdown-begins-to-great-north-american-eclipse-the-longest-darkest-and-best-for-21-years/#279f0f915a5f")'>Learn</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class='col-xs-12 col-md-6 col-xl-3'>
-            <div class="card mx-auto w-auto">
-                <img src="https://fsmedia.imgix.net/48/cf/55/f7/54a6/4e0a/a0d7/5caefa7b5460/humanitys-first-image-of-a-black-hole.png?crop=edges&fit=crop&auto=format%2Ccompress&dpr=2&h=325&w=650" class="card-img-top" alt="black-hole">
-                <div class="card-body d-flex flex-column justify-content-between h-100">
-                    <div>
-                        <h5 class="card-title">Astronomers Find Triple Supermassive Black Hole</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div>
-                        <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("http://www.sci-news.com/astronomy/triple-supermassive-black-hole-07638.html")'>Learn</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class='col-xs-12 col-md-6 col-xl-3'>
-            <div class="card mx-auto">
-                <img src="https://cdn.mos.cms.futurecdn.net/LDQ2fmWu2etHWDfj6EuCPD-1024-80.jpeg" class="card-img-top" alt="starship-prototype">
-                <div class="card-body d-flex flex-column justify-content-between h-100">
-                    <div>
-                        <h5 class="card-title">SpaceX Finishes Assembling New Starship Prototype (Photo)</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div>
-                        <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.space.com/spacex-assembles-starship-mk1-photo.html")'>Learn</a>
-                    </div>
+                <div>
+                    <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.space.com/55-earths-moon-formation-composition-and-orbit.html")'>Learn</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a href='#' class='nav-link' data-toggle="modal" data-target="#exampleModalCenter">
-                        Subscribe for updates!
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe for updates!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <div class='col-xs-12 col-md-6 col-xl-3'>
+        <div class="card mx-auto">
+            <img src="https://s3.amazonaws.com/dsg.files.app.content.prod/gereports/wp-content/uploads/2017/08/17133501/Corona.jpg" class="card-img-top" alt="solar-eclipse">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+                <div>
+                    <h5 class="card-title">When is the next solar eclipse?</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">Name</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name">
+                <div>
+                    <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.forbes.com/sites/jamiecartereurope/2019/04/08/countdown-begins-to-great-north-american-eclipse-the-longest-darkest-and-best-for-21-years/#279f0f915a5f")'>Learn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='col-xs-12 col-md-6 col-xl-3'>
+        <div class="card mx-auto w-auto">
+            <img src="https://fsmedia.imgix.net/48/cf/55/f7/54a6/4e0a/a0d7/5caefa7b5460/humanitys-first-image-of-a-black-hole.png?crop=edges&fit=crop&auto=format%2Ccompress&dpr=2&h=325&w=650" class="card-img-top" alt="black-hole">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+                <div>
+                    <h5 class="card-title">Astronomers Find Triple Supermassive Black Hole</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div>
+                    <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("http://www.sci-news.com/astronomy/triple-supermassive-black-hole-07638.html")'>Learn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='col-xs-12 col-md-6 col-xl-3'>
+        <div class="card mx-auto">
+            <img src="https://cdn.mos.cms.futurecdn.net/LDQ2fmWu2etHWDfj6EuCPD-1024-80.jpeg" class="card-img-top" alt="starship-prototype">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+                <div>
+                    <h5 class="card-title">SpaceX Finishes Assembling New Starship Prototype (Photo)</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <div>
+                    <a href='javascript:void(0)' class="btn btn-primary" onclick='leavingSite("https://www.space.com/spacex-assembles-starship-mk1-photo.html")'>Learn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href='#' class='nav-link' data-toggle="modal" data-target="#exampleModalCenter">
+                    Subscribe for updates!
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe for updates!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Checkbox
+                            </label>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck">
-                                <label class="form-check-label" for="gridCheck">
-                                    Checkbox
-                                </label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Subscribe</button>
-                </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Subscribe</button>
             </div>
         </div>
     </div>
-
-    <script src='bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js' type='text/javascript'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>

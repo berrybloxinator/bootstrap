@@ -1,16 +1,18 @@
+@font-face {
+    font-family: 'Brandon Grotesque', 'brandon-grotesque', Helvetica, sans-serif;
+    src: url("../../brand_ssv/Brandon_reg.otf") format("opentype");
+}
+
+body {
+    font-family: 'Brandon Grotesque', 'brandon-grotesque', Helvetica, sans-serif;
+}
+
 * {
     box-sizing: border-box;
 }
 
 .firstCarousel img {
     object-fit: cover;
-    /*min-height: 300px;*/
-    /*max-height: 600px;*/
-}
-
-.secondCarousel img {
-    /*object-fit: cover;*/
-    /*height: 900px;*/
 }
 
 .navbar img {
@@ -61,4 +63,40 @@
 
 .span2 {
     color: #686868;
+}
+
+#myTabContent {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tabs {
+    background-color: #282828;
+    font-size: 18px;
+}
+
+.tabs .nav {
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+.tabs .nav-item a {
+    border-radius: 0;
+    border: none;
+    color: #ffffff;
+    height: 55px;
+    display: block;
+}
+
+.tabs .nav-item a:hover {
+    background-color: #A9A9A9;
+}
+
+.tabs .nav-item .active {
+    background-color: #A9A9A9;
+    color: #ffffff;
+}
+
+.tabs li {
+    padding: 0;
 }

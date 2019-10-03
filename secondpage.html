@@ -7,6 +7,9 @@
 
     <link rel='stylesheet' href='bootstrap-4.3.1-dist/css/bootstrap.min.css'>
     <link rel='stylesheet' href='bootstrap-4.3.1-dist/css/styles.css'>
+    <script src='bootstrap-4.3.1-dist/js/min.js'></script>
+    <script src='bootstrap-4.3.1-dist/js/bootstrap.js'></script>
+    <script src='action.js' charset='utf-8'></script>
 
     <title>Hello, world!</title>
 </head>
@@ -142,6 +145,74 @@
         </a>
     </div>
 
+    <div class='tabs'>
+        <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item col-12 col-md-4 col-xl-3">
+                <a class="nav-link active d-flex align-items-center justify-content-center" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">STARSHIP USES</a>
+            </li>
+            <li class="nav-item col-12 col-md-4 col-xl-3">
+                <a class="nav-link d-flex align-items-center justify-content-center" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">MOON MISSIONS</a>
+            </li>
+            <li class="nav-item col-12 col-md-4 col-xl-3">
+                <a class="nav-link d-flex align-items-center justify-content-center" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">SPACE STATION MISSIONS</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content container-fluid" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class='row'>
+                <div class='col-12 col-lg-6 p-0'>
+                    <img src='images/starshipUses.jpg' alt='Sharship Uses' class='d-block w-100'>
+                </div>
+                <div class='col-12 col-lg-6 d-flex align-items-center p-5'>
+                    <div>
+                        <h3>STARSHIP USES</h3>
+                        <p>
+                            The Starship payload fairing is 9 m in diameter and ~19 m high, resulting in the largest usable payload
+                            volume of any current or in development launcher. This payload volume can be configured for both crew and cargo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class='row'>
+                <div class='col-12 col-lg-6 p-0'>
+                    <img src='images/moonMissions.jpg' alt='Moon Missions' class='d-block w-100'>
+                </div>
+                <div class='col-12 col-lg-6 d-flex align-items-center p-5'>
+                    <div>
+                        <h3>MOON MISSIONS</h3>
+                        <p>
+                            Returning to the Moon and developing bases to support future space exploration requires the transport of large
+                            amounts of cargo to the Moon for research and human spaceflight development. The fully reusable Starship system
+                            is capable of supporting this effort by carrying the building blocks needed to enable a Moon base and by informing
+                            the development of propulsive landing systems to help realize this future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class='row'>
+                <div class='col-12 col-lg-6 p-0'>
+                    <img src='images/satellite.jpg' alt='Satellite' class='d-block w-100'>
+                </div>
+                <div class='col-12 col-lg-6 d-flex align-items-center p-5'>
+                    <div>
+                        <h3>SPACE STATION MISSIONS</h3>
+                        <p>
+                            Starship can deliver both cargo and people to and from the International Space Station. Starship’s forward payload
+                            volume is about 1,100 m3, providing significant capacity for in-space activities. The aft cargo containers can also
+                            host a variety of payloads.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div id="navbarText">
             <ul class="navbar-nav mr-auto">
@@ -191,10 +262,5 @@
             </div>
         </div>
     </div>
-
-
-    <script src='bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js' type='text/javascript'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
